@@ -35,8 +35,15 @@ Follow these steps for completing your project.
 Your challenge for this module: write tests for both the `App.js` component and the `Episodes.js` component. Take note of:
 
 where the state is being managed, 
+    useState is in App.js
+
 where the async call is,
+    the call is in App.js/ moving to fetchShow.js
+
 where different data peices are being rendered.
+    App.js- Title, Summary, seasons and poster img.
+
+    Episodes.js- Image at top of the cards for each ep. listed. Title of each ep. summary of each chapter and duration of each ep.
 
 Understanding all of this will be important so you know how to test each component.
 
